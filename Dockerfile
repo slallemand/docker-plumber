@@ -1,4 +1,6 @@
-FROM rocker/r-base MAINTAINER Jeff Allen <docker@trestletech.com> RUN apt-get update -qq && apt-get install -y \
+FROM rocker/r-base 
+MAINTAINER Jeff Allen <docker@trestletech.com> 
+RUN apt-get update -qq && apt-get install -y \
   git-core \
   libssl-dev \
   libcurl4-gnutls-dev
